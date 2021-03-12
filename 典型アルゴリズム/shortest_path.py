@@ -18,3 +18,4 @@ def counting(a,b,X):
     return A[a][b]
 
 #print(counting(5,6,[(2,3),(4,5)]))
+　
