@@ -16,8 +16,8 @@ for _ in range(Q):
         for i in range(N):
             if tmp_WV[i][0] <= size:
                 tmp_list.append([tmp_WV[i][1], i])
-        tmp_list.sort()
-        #print(tmp_list)
-        ans += tmp_list[-1][0]
-        tmp_WV[tmp_list[-1][1]] = [0,0]
+        if len(tmp_list) != 0:
+            tmp_list.sort()
+            ans += tmp_list[-1][0]
+            tmp_WV[tmp_list[-1][1]] = [0,0]
     print(ans)
