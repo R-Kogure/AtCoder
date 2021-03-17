@@ -23,7 +23,7 @@ def search(T, n):
     if n < data:
         return search(L,n)
     return search(R,n)
-
+#ここから下がうまく動作しない
 def remove(T,n):
     if len(T) == 0:
         return ()
