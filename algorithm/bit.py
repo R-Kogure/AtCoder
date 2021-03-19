@@ -11,7 +11,7 @@ for i in range(N):
 
 
 """
-ARC061-C
+ARC061C
 bit全探
 """
 S = input()
@@ -33,7 +33,7 @@ for i in range(2**(len(S)-1)):
 print(sum(ans))
 
 """
-ABC079-C
+ABC079C
 bit全探
 """
 s = input()
