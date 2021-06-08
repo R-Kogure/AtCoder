@@ -1,4 +1,4 @@
-N,Q = map(int,input().split())
+N,Q = map(int,input().split())#Qはクエリの数
 a = list(map(int,input().split()))
 Sa = [0]
 num = 0
