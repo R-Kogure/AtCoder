@@ -7,6 +7,7 @@ difs=[]
 difk={}
 tmp=0
 num=0
+
 for a in A:
   if a-tmp>1:
     num+=(a-tmp-1)
